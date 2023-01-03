@@ -8,14 +8,14 @@
 
 <section class="main-content-w3layouts-agileits">
     <div class="container">
-        <h3 class="tittle">Blog Posts</h3>
+        <h3 class="tittle">aaaaa Posts</h3>
         <div class="inner-sec">
             <div class="left-blog-info-w3layouts-agileits text-left">
                 <div class="row">
                     @foreach (var item in Model)
                     {
                         <div class="col-lg-4 card">
-                            <a href="single.html">
+                            <a href="/Blog/BlogReadAll/@item.BlogID/">
                                 <img src="@item.BlogThumbnailImage" class="card-img-top img-fluid" alt="">
                             </a>
                             <div class="card-body">
@@ -40,7 +40,7 @@
                                     <a href="/Blog/BlogReadAll/@item.BlogID/">@item.BlogTitle</a>
                                 </h5>
                                 <p class="card-text mb-3">@item.BlogContent.Substring(0, item.BlogContent.Substring(0,130).LastIndexOf(" "))</p>
-                                <a href="single.html" class="btn btn-primary read-m">Read More</a>
+                                <a href="/Blog/BlogReadAll/@item.BlogID/" class="btn btn-primary read-m">Read More</a>
                             </div>
                         </div>
                     }

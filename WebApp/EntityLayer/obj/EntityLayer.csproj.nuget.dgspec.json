@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emre Koçoğlu\\source\\repos\\WebApp\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emre Koçoğlu\\source\\repos\\WebApp\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emre Koçoğlu\\source\\repos\\WebApp\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\Emre Koçoğlu\\source\\repos\\WebApp\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\Emre Koçoğlu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emre Koçoğlu\\source\\repos\\WebApp\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

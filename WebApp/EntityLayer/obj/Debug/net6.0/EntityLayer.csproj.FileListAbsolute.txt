@@ -10,3 +10,15 @@ C:\Users\Emre Koçoğlu\source\repos\WebApp\EntityLayer\obj\Debug\net6.0\EntityL
 C:\Users\Emre Koçoğlu\source\repos\WebApp\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
 C:\Users\Emre Koçoğlu\source\repos\WebApp\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
 C:\Users\Emre Koçoğlu\source\repos\WebApp\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
+C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll

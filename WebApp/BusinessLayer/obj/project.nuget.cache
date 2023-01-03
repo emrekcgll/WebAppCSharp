@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ap4qpua+LUvx3XUIzkMURbY7x7C2ckyDISw6XPmlO+mzOy+mBTxwwIPuJ54sdg/4ZfD8x+9skbSvTGi2x2Y89A==",
+  "dgSpecHash": "cKfuAuUg8h5hUr40uuFryJf3D4WP3+IiHepmow/AZBaMpaL45cEy17Aun7Kw0ZwAdL5S9STob1Set/JJg+IFKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Emre Koçoğlu\\source\\repos\\WebApp\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Emre Koçoğlu\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Emre Koçoğlu\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

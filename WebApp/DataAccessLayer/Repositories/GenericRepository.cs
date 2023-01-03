@@ -13,12 +13,15 @@ namespace DataAccessLayer.Repositories
     {
         public void Delete(T t)
         {
-            throw new NotImplementedException();
+            using var c = new Context();
+            c.Remove(t);
+            c.SaveChanges();
         }
 
         public T GetById(int id)
         {
-            throw new NotImplementedException();
+            using var c = new Context();
+            return c.Set<T>().Find(id);
         }
 
         public List<T> GetListAll()
@@ -29,18 +32,22 @@ namespace DataAccessLayer.Repositories
 
         public void Insert(T t)
         {
-            throw new NotImplementedException();
+            using var c = new Context();
+            c.Add(t);
+            c.SaveChanges();
         }
 
-		public List<T> GetListAll(Expression<Func<T, bool>> filter)
-		{
-			using var c = new Context();
-            return c.Set<T>().Where(filter).ToList();
-		}
-
-		public void Update(T t)
+        public List<T> GetListAll(Expression<Func<T, bool>> filter)
         {
-            throw new NotImplementedException();
+            using var c = new Context();                        //Blog listelemede filterden gelen değer ile listelenecek.
+            return c.Set<T>().Where(filter).ToList();           //Araya where koyduk Filterdan gelen değere göre listeleyecek.
+        }
+
+        public void Update(T t)
+        {
+            using var c = new Context();
+            c.Update(t);
+            c.SaveChanges();
         }
     }
 }

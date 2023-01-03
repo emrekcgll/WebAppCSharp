@@ -9,61 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplicationUI
 build_property.RootNamespace = WebApplicationUI
-build_property.ProjectDir = C:\Users\Emre Koçoğlu\source\repos\WebApp\WebApplicationUI\
+build_property.ProjectDir = C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\WebApplicationUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Emre Koçoğlu\source\repos\WebApp\WebApplicationUI
+build_property.MSBuildProjectDirectory = C:\Users\Emre Koçoğlu\Desktop\GitHub\WebAppCSharp\WebApp\WebApplicationUI
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/Blog/BlogReadAll.cshtml]
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Blog/BlogReadAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nUmVhZEFsbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/Blog/Index.cshtml]
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/Home/Index.cshtml]
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Comment/Partial_AddComment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxQYXJ0aWFsX0FkZENvbW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Comment/Partial_CommentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxQYXJ0aWFsX0NvbW1lbnRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/Home/Privacy.cshtml]
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/Shared/Error.cshtml]
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/Shared/Partial1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWwxLmNzaHRtbA==
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Shared/Partial_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxfRm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/Shared/Partial2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWwyLmNzaHRtbA==
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Shared/Partial_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxfTmF2YmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/Shared/Partial3.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWwzLmNzaHRtbA==
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Shared/Partial_Navbar_Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxfTmF2YmFyX1JlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/Shared/UserLayout.cshtml]
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Shared/UserLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVzZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/_ViewImports.cshtml]
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/_ViewStart.cshtml]
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/source/repos/WebApp/WebApplicationUI/Views/Shared/_Layout.cshtml]
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-hajbwcz075
