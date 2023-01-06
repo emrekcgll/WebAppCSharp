@@ -9,7 +9,7 @@ namespace DataAccessLayer.Concrete
         {
             optionsBuilder.UseSqlServer(@"server=(localdb)\MSSQLLocalDB;database=WebApp; integrated security=true;");
         }
-
+        public DbSet<Newsletter> Newsletters { get; set; }
         public DbSet<About> Abouts { get; set; }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Category> Categories { get; set; }

@@ -24,12 +24,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Comment/Partial_AddComment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxQYXJ0aWFsX0FkZENvbW1lbnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Comment/Partial_CommentList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxQYXJ0aWFsX0NvbW1lbnRMaXN0LmNzaHRtbA==
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/ErrorPage/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JQYWdlXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Home/Index.cshtml]
@@ -38,6 +34,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Newsletter/SubscribeMail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c2xldHRlclxTdWJzY3JpYmVNYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Shared/Components/CategoryList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Shared/Components/WriterLastBlogs/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcV3JpdGVyTGFzdEJsb2dzXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Emre Koçoğlu/Desktop/GitHub/WebAppCSharp/WebApp/WebApplicationUI/Views/Shared/Error.cshtml]

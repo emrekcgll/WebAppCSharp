@@ -1,0 +1,57 @@
+﻿@model EntityLayer.Concrete.Writer
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<section class="main-content-w3layouts-agileits">
+    <div class="container">
+        <h3 class="tittle">Yazar Ol</h3>
+        <div class="inner-sec">
+            <div class="login p-5 bg-light mx-auto mw-100">
+                @if (ViewBag.Message != null)
+                {
+                    <div class="alert alert-success">@ViewBag.Message</div>
+                }
+                <form method="post" asp-controller="Register" asp-action="Index">
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom01">Ad Soyad:</label>
+                            <input type="text" class="form-control" id="validationDefault01" asp-for="WriterName">
+                            <span class="alert-danger" asp-validation-for="WriterName"></span>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="validationCustom02">Email: </label>
+                            <input type="text" class="form-control" id="validationDefault02" asp-for="WriterMail">
+                            <span class="alert-danger" asp-validation-for="WriterMail"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="exampleInputPassword1 mb-2">Password</label>
+                            <input type="password" class="form-control" id="password1" asp-for="WriterPassword">
+                            <span class="alert-danger" asp-validation-for="WriterPassword"></span>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="exampleInputPassword2 mb-2">Confirm Password</label>
+                            <input type="password" class="form-control" id="password2" asp-for="WriterConfirmPassword">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit mb-4">Kayıt Ol</button>
+                </form>
+                <p>
+                    <a href="#" id="btn1">Şartları okudum, kabul ediyorum.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $('#btn1').click(function () {
+        swal("Üyelik Kabul Şartları ve KVKK", "Şartlar...")
+    })
+</script>
+
