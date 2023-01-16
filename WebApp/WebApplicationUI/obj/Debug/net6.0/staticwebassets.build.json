@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1/QX28OH4hIxwqFvO07DDcuTrTYmZhOUJa1KPGB+DcU=",
+  "Hash": "4AwA2EG9Wz33pFIQtdA7uFzZxm4wGcZeO+yo5tO8+hk=",
   "Source": "WebApplicationUI",
   "BasePath": "_content/WebApplicationUI",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\WebApplicationUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplicationUI.styles.css",
-      "SourceId": "WebApplicationUI",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\WebApplicationUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/WebApplicationUI",
-      "RelativePath": "WebApplicationUI.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\WebApplicationUI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplicationUI.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\WebApplicationUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplicationUI.bundle.scp.css",
-      "SourceId": "WebApplicationUI",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\WebApplicationUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/WebApplicationUI",
-      "RelativePath": "WebApplicationUI.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\WebApplicationUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplicationUI.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\WebApplicationUI\\wwwroot\\css\\site.css",
       "SourceId": "WebApplicationUI",

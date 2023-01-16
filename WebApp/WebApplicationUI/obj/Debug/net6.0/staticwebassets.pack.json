@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\WebApplicationUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplicationUI.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebApplicationUI.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\Emre Koçoğlu\\Desktop\\GitHub\\WebAppCSharp\\WebApp\\WebApplicationUI\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

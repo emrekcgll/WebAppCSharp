@@ -1,4 +1,5 @@
-﻿@model IEnumerable<EntityLayer.Concrete.Blog>
+﻿@using EntityLayer.Concrete
+@model IEnumerable<Blog>
 
 @{
     ViewData["Title"] = "BlogDetails";
@@ -6,7 +7,7 @@
 }
 <script src="~/lib/jquery/dist/jquery.min.js"></script>
 <script src="~/lib/jquery/dist/jquery.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
 <section class="banner-bottom">
     <div class="container">
         <div class="row">
@@ -34,7 +35,7 @@
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i class="far fa-comment"></i> 2 Comments
+                                            <i class="far fa-comment"></i> <span id="CommentLength"></span>
                                         </a>
                                     </li>
                                 </ul>
@@ -51,6 +52,7 @@
                 }
                 <div class="comment-top">
                     <h4>Yorumlar</h4>
+                    <h1>@ViewBag.WriterId</h1>
                     <div class="media">
                         <div id="listele"></div>
                     </div>
@@ -73,31 +75,47 @@
                     <div class="tech-btm">
                         <img src="~/web/images/banner1.jpg" class="img-fluid" alt="">
                     </div>
-                    @await Html.PartialAsync("~/Views/Newsletter/SubscribeMail.cshtml")
-                    @await Component.InvokeAsync("CategoryList")
-                    @await Component.InvokeAsync("WriterLastBlogs")
-                    <div class="single-gd tech-btm">
-                        <h4>Recent Post</h4>
-                        <div class="blog-grids">
-                            <div class="blog-grid-left">
-                                <a href="single.html">
-                                    <img src="~/web/images/b1.jpg" class="img-fluid" alt="">
-                                </a>
-                            </div>
-                            <div class="blog-grid-right">
-                                <h5>
-                                    <a href="single.html">Pellentesque dui, non felis. Maecenas male</a>
-                                </h5>
-                            </div>
-                            <div class="clearfix"> </div>
+                    <div class="tech-btm">
+                        <h4>Mail bültenine abone ol!</h4>
+                        <p>Yeni blog yazılarımızı ve kampanyaları kaçırma..</p>
+                        <div>
+                            <input id="email" type="email" placeholder="Email" required="">
+                            <button id="addNewsletter" class="btn btn-primary read-m" type="submit">Abone Ol</button>
                         </div>
                     </div>
+                    @foreach (var item in Model)
+                    {
+                        @await Component.InvokeAsync("WriterLastBlogs",new{id=@item.WriterID})
+                        @await Component.InvokeAsync("CategoryList")
+                        @await Component.InvokeAsync("GetLastBlogLists")
+                    }
                 </div>
             </aside>
         </div>
     </div>
 </section>
 
+
+<script>
+    $("#addNewsletter").click(function () {
+        let newsletter = {
+            Mail: $("#email").val()
+        };
+
+        $.ajax({
+            type: "post",
+            url: "/Blog/SubscribeMail/",
+            data: newsletter,
+            success: function (func) {
+                let result = jQuery.parseJSON(func);
+                alert("Mail bültenine abone oldunuz.")
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    });
+</script>
 
 <script>
     $("#addcomment").click(function () {
@@ -130,10 +148,28 @@
             data: { id: @ViewBag.CommentId},
             success: function (func) {
                 let w = jQuery.parseJSON(func);
-                console.log(w);
+                //console.log(w);
+                //console.log(w.length);
+                $("#CommentLength").html(w.length);
+            }
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            contentType: "application/json",
+            datatype: "json",
+            type: "Get",
+            url: "/Blog/CommentList",
+            data: { id: @ViewBag.CommentId},
+            success: function (func) {
+                let w = jQuery.parseJSON(func);
+                //console.log(w);
                 let tablehtml = "<div>";
                 $.each(w, (index, value) => {
-                    tablehtml += `<div class="media"><img src="${value.CommentImg}" alt="" class="img-fluid" /><div class="media-body"><h5 class="mt-0">${value.CommentUserName}</h5><p><span style="color:black"><b>${value.CommentTitle}</b></span><br>${value.CommentContent}<br>${value.CommentDate}<br></p></div></div>`
+                    tablehtml += `<div class="media"><img src="${value.CommentImg}" alt="" class="img-fluid" /><div class="media-body"><h5 class="mt-0">${value.CommentUserName}</h5><p><span style="color:black"><b>${value.CommentTitle}</b></span><br>${value.CommentContent}<br>` + new Date(value.CommentDate).toLocaleString() + `<br></p></div></div>`
                 });
                 tablehtml += "</div>";
                 $("#listele").html(tablehtml);

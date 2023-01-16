@@ -5,6 +5,8 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/UserLayout.cshtml";
 }
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
 
 <section class="main-content-w3layouts-agileits">
     <div class="container">
@@ -27,7 +29,7 @@
                                     </li>
                                     <li class="mx-2">
                                         <a href="#">
-                                            <i class="far fa-comment"></i>
+                                            <i class="far fa-comment"></i><span id="CommentLength">@item.BlogID</span>
                                         </a>
                                     </li>
                                     <li>
@@ -70,3 +72,22 @@
 </section>
 
 
+
+<script>
+    $(document).ready(function () {
+        var blogid = $("#CommentLength").text();
+        $.ajax({
+            contentType: "application/json",
+            datatype: "json",
+            type: "Get",
+            url: "/Blog/CommentList",
+            data: { id: blogid },
+            success: function (func) {
+                let w = jQuery.parseJSON(func);
+                console.log(w);
+                console.log(w.length);
+                $("#CommentLength").html(w.length);
+            }
+        });
+    });
+</script>
