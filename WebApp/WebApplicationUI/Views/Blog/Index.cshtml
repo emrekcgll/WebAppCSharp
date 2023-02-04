@@ -29,7 +29,7 @@
                                     </li>
                                     <li class="mx-2">
                                         <a href="#">
-                                            <i class="far fa-comment"></i><span id="CommentLength">@item.BlogID</span>
+                                            <i class="far fa-comment"></i><span class="CommentLength" data-id="@item.BlogID"></span>
                                         </a>
                                     </li>
                                     <li>
@@ -46,25 +46,6 @@
                             </div>
                         </div>
                     }
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination justify-content-left mt-4">
-                            <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1">Previous</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">1</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">2</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">3</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">Next</a>
-                            </li>
-                        </ul>
-                    </nav>
                 </div>
             </div>
         </div>
@@ -72,22 +53,25 @@
 </section>
 
 
-
 <script>
     $(document).ready(function () {
-        var blogid = $("#CommentLength").text();
-        $.ajax({
-            contentType: "application/json",
-            datatype: "json",
-            type: "Get",
-            url: "/Blog/CommentList",
-            data: { id: blogid },
-            success: function (func) {
-                let w = jQuery.parseJSON(func);
-                console.log(w);
-                console.log(w.length);
-                $("#CommentLength").html(w.length);
-            }
+        $(".CommentLength").each(function () {
+            var blogid = $(this).attr("data-id");
+            var span = $(this);
+            $.ajax({
+                contentType: "application/json",
+                datatype: "json",
+                type: "Get",
+                async: true,
+                url: "/Blog/CommentList",
+                data: { id: blogid },
+                success: function (func) {
+                    let w = jQuery.parseJSON(func);
+                    console.log(w);
+                    console.log(w.length);
+                    span.html(w.length);
+                }
+            });
         });
     });
 </script>

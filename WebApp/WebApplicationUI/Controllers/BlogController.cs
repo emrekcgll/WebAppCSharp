@@ -5,7 +5,6 @@ using EntityLayer.Concrete;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace WebApplicationUI.Controllers
 {
@@ -41,7 +40,7 @@ namespace WebApplicationUI.Controllers
 
         public JsonResult CommentList(int id)
         {
-            var values = cm.GetList(id);    
+            var values = cm.GetList(id);
             var jsonComment = JsonConvert.SerializeObject(values);
             return Json(jsonComment);
         }
